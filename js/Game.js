@@ -49,6 +49,6 @@ lunchdemon.Game.prototype = {
 	},
 
 	killGame: function(){
-		this.state.start('MainMenu', true, false, seconds);
+		this.game.state.start('MainMenu', true, false, seconds);
 	}
 };
